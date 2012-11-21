@@ -26,4 +26,10 @@ margin-right: 50px;
     }
     table {
         background-color:#748C73;
-        }
+ }
+ .center{
+     float:center;
+     }
+.izq{
+    float:left;
+    }     
