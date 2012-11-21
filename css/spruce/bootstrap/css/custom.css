@@ -9,15 +9,21 @@
 #center-align {
     margin-left:auto;
     margin-right:auto;
-    width:40%;
+    width:60%;
 }
 .m-izquierda{
 margin-left: 20px;
 }
 .m-derecha{
-margin-right: 20px;
+margin-right: 80px;
 }
 .m-center{
 margin-left: 50px;
 margin-right: 50px;
 }
+.der{
+    float:right;
+    }
+    table {
+        background-color:#748C73;
+        }
