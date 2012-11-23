@@ -1,5 +1,5 @@
-.hero-unit h1 {
-  margin-bottom: 0;
+.hero-unit h1 p {
+  margin-bottom: 0 auto;
   font-size: 100px;
   line-height: 1;
   color: #f5f3dc;
@@ -18,9 +18,11 @@ margin-left: 20px;
 margin-right: 80px;
 }
 .m-center{
-margin-left: 50px;
-margin-right: 50px;
+    
+margin-left: 100px;
+margin-right: 100px;
 }
+
 .der{
     float:right;
     }
@@ -33,3 +35,5 @@ margin-right: 50px;
 .izq{
     float:left;
     }     
+    
+#logo { margin-left: 20px; }    
