@@ -26,9 +26,8 @@ margin-right: 100px;
 .der{
     float:right;
     }
-    table {
-        background-color:#748C73;
- }
+    
+
  .center{
      float:center;
      }
@@ -39,6 +38,8 @@ margin-right: 100px;
 #logo { margin-left: 20px; }  
 
 
-
+.btn-der{
+    margin-right: 50px;
+    }
 
             
