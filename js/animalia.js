@@ -7,23 +7,27 @@
     apiVersion: 0
   });
 
+  var Animal = StackMob.Model.extend({ schemaName: 'animales' });
+  
   $('#enviar').click(function(e) {
     e.preventDefault();
+    
+
     
     var nombre = $('#nombre').val();
     var subir = $('#subir').val();
     var descripcion = $('#descripcion').val();
     var seleccionar = $('#seleccionar').val();
-    
-    var Animal = StackMob.Model.extend({ schemaName: 'animales' });
-    var entry = new Animal({ name: nombre, upload: subir, description: descripcion, select: seleccionar });
+    //upload: subir,
+     var Animal = StackMob.Model.extend({ schemaName: 'animales' });
+    var entry = new Animal({ name: nombre, description: descripcion, select: seleccionar });
     entry.create();
 
     console.log("Subir imagen");
 
-    animal = new Animal();
+    var animal = new Animal();
 
-   animal.fetch({
+    animal.fetch({
       success: function(model) {
         console.log(model.toJSON());
       },
