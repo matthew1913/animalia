@@ -1,0 +1,45 @@
+.hero-unit h1 p {
+  margin-bottom: 0 auto;
+  font-size: 100px;
+  line-height: 1;
+  color: #f5f3dc;
+  letter-spacing: -1px;
+}
+
+#center-align {
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+}
+.m-izquierda{
+margin-left: 20px;
+}
+.m-derecha{
+margin-right: 80px;
+}
+.m-center{
+    
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.der{
+    float:right;
+    }
+    
+
+ .center{
+     float:center;
+     }
+.izq{
+    float:left;
+    }     
+    
+#logo { margin-left: 20px; }  
+
+
+.btn-der{
+    margin-right: 50px;
+    }
+
+            
